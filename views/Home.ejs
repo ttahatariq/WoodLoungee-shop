@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Wood Lounge</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Hero-Clean-Reverse.css">
+    <link rel="stylesheet" href="assets/css/Navbar-With-Button.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+    <%- include('./navbar.ejs') %>
+    
+        <div class="row" id="containers" >
+            <div class="col-md-6 text-center text-md-left d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-start align-items-md-center justify-content-xl-center mb-4">
+                <div style="max-width: 350px;">
+                    <h2 class="text-uppercase font-weight-bold" style="font-size: 28px;text-decoration: underline;font-style: italic; color: aliceblue;">Furniture You Dream</h2>
+                    <p class="my-3" style="color: aliceblue;">Grab your Favourite Furniture from Wood Lounge today. many more Designs Available.
+                        Exclusively available at woodlounge, Our fantastic-value and stylish wood furniture collections make it easy to bring actual artisanship and exceptional quality to every room in your home. Get Quality on Living room furniture, tables, bedroom furniture, kitchen & dining and kids furniture.
+                    </p><a class="btn btn-primary btn-lg mr-2" role="button" href="./Store.html" class="btn">Shop Here</a>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="p-xl-5 m-xl-5"><img class="rounded img-fluid w-250 fit-cover"  src="assets/img/IMG-20211006-WA0026.jpg"></div>
+            </div>
+        </div>
+    
+
+
+    <div class="container py-4 py-xl-5" id="products">
+        <h2 style="text-align: center; margin-bottom: 50px; color: aliceblue;">Products</h2>
+        <div class="row">
+            <div class="col"><div class="card" style="width: 18rem;" id="cards">
+                <img src="./assets/img/1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div></div>
+            <div class="col"><div class="card" style="width: 18rem;" id="cards">
+                <img src="./assets/img/2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div></div>
+            <div class="col"><div class="card" style="width: 18rem;" id="cards">
+                <img src="./assets/img/3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div></div>
+
+            </div></div>
+        </div>
+    </div>
+    <div class="container py-4 py-xl-5">
+
+        <div class="row" id="containers">
+            <div class="col-12 col-md-5" id="hwdi">
+                <h1>How We DID It!</h1>
+                <img src="./assets/img/couch.jpeg" alt=""  >
+            </div>
+            <div class="col-6 col-md-7"  id="hwd">
+                <p>woodlounge.pk is one of the best online furniture shopping platforms in Lahore, Pakistan, committed to providing high-quality, solid wood, and customized furniture. We strictly focus on aesthetics and craftsmanship to bring you meticulously crafted premium-quality furniture as per your requirements.
+
+                    Buying furniture is a hectic and time-consuming process. At woodlounge, we aim to make furniture shopping hassle-free so you can order furniture online from the comfort of your home. Our seamless website and mobile app offer a smooth shopping experience. You can choose from the wide selection of elegantly designed wood furniture. woodlounge.pk is your one-stop solution to buy high-quality furniture for your bedroom, living/ drawing room, kids’ room, guest room, dining room, or kitchen furniture at affordable prices.
+                    
+                    We believe in delivering quality and therefore make no compromise on it! <br> We use premium quality wood and fabric in our furniture products. The high-quality build material, our top-notch service, and elegant furniture designs will surely captivate you, leaving no room for any discontent! Order any furniture item today, and we will bring it to your doorsteps! <br>
+                    
+                    woodlounge.pk offers solid wood furniture in a variety of styles, including minimalistic, rustic, antique, modern, and contemporary, to suit your preferences, decor, and sense of style. We have exquisite furniture for every room of your home. Elegant designer bedroom furniture, coffee tables, center tables, round tables, office chairs and tables, seating living room furniture, you name it! You will get it all at affordable prices at woodlounge!
+                    
+                    Browse our broad collection of bedroom furniture, living room furniture, kids furniture, kitchen furniture, and office furniture, and decorate your home or workplace with these utter pieces of art!</p>
+            </div>
+        </div>
+    </div>
+    <img src="./assets/img/whatsapp-icon-logo.png" alt="" class="sticky">
+
+    <%- include('./footer.ejs') %>
+
+     <!-- The Modal -->
+     <div id="myModal" class="modal">
+    
+        <!-- Modal content -->
+        <div class="modal-content" id="popup">
+          <span class="close">&times;</span>
+          <h1>My Cart</h1>
+              <div class="row" id="popupProduct">
+                  <div class="col"><div class="card" style="width: 18rem;" id="cards">
+                      <img src="./assets/img/1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                  </div></div>
+                  <div class="col"><div class="card" style="width: 18rem;" id="cards">
+                      <img src="./assets/img/2.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                  </div></div>
+                  <div class="col"><div class="card" style="width: 18rem;" id="cards">
+                      <img src="./assets/img/3.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                  </div></div>
+  
+                  </div>
+                  <h3>Sub Total:</h3>
+                  <h3>Deleivery Charges:</h3>
+                  <h3>Total:</h3>
+  
+                  <button class="btn">Confirm Order</button>
+              </div>
+              </div>
+              
+      
+      </div>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="./assets/js/java.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>
